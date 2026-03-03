@@ -150,7 +150,14 @@ Works with any MCP-compatible client:
 
 ## Get your key
 
-→ **[pfc-token-killer.com](https://pfc-token-killer.com)**
+→ Register at **[pfc-token-killer.com](https://pfc-token-killer.com)** *(coming soon)*
+→ Or watch this repo — we'll announce here when keys go live
+
+---
+
+## Questions / Support
+
+→ **[Open an Issue](https://github.com/Dante7771/patk-mcp/issues)** — fastest way to reach us
 
 ---
 
