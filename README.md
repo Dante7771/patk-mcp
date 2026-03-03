@@ -50,9 +50,7 @@ and their **own separate API costs**. PATK installed once works everywhere:
 
 ### 1. Get your free API key
 
-**API keys launching soon** — [watch this repo](https://github.com/Dante7771/patk-mcp) or [open an issue](https://github.com/Dante7771/patk-mcp/issues) to get notified.
-
-> 🔜 **[pfc-token-killer.com](https://pfc-token-killer.com)** *(coming soon)* — 200 free credits, no payment required.
+> 🔜 **API keys not yet live.** [Watch this repo](https://github.com/Dante7771/patk-mcp) or [open an issue](https://github.com/Dante7771/patk-mcp/issues) to get notified when **[pfc-token-killer.com](https://pfc-token-killer.com)** launches — 200 free credits, no payment required.
 
 ### 2. Install dependencies
 
@@ -146,7 +144,7 @@ Works with any MCP-compatible client:
 
 1 credit = 1 filter call. Credits never expire. No subscriptions.
 
-> **Early Bird:** Pre-register now for +50% bonus credits on paid plans at launch.
+> ⏳ **Paid plans not yet live.** Free Starter tier available at launch. [Pre-register](https://github.com/Dante7771/patk-mcp/issues) now for **+50% Early Bird bonus credits** on paid plans.
 
 ---
 
