@@ -1,0 +1,31 @@
+# Smithery configuration for PATK — PFC Agent Token Killer
+# https://smithery.ai/docs/build/session-config
+
+startCommand:
+  type: stdio
+
+configSchema:
+  type: object
+  required:
+    - apiKey
+  properties:
+    apiKey:
+      type: string
+      title: PATK API Key
+      description: >
+        Your PATK API key (starts with ptk_...).
+        Get one at pfc-token-killer.com — 200 free credits, no payment required.
+
+commandFunction: |-
+  (config) => ({
+    command: "python",
+    args: ["server.py"],
+    env: {
+      PATK_API_KEY: config.apiKey,
+      PYTHONUNBUFFERED: "1"
+    }
+  })
+
+build:
+  dockerfile: Dockerfile
+  dockerBuildPath: .
