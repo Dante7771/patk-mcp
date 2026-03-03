@@ -7,7 +7,7 @@ Intelligent terminal output filter for Claude Code.
 Reduces terminal output by 40-80% → keeps Claude's context fresh longer.
 
 REQUIRES: PATK_API_KEY environment variable
-GET YOUR KEY: https://api-production-44c2.up.railway.app
+GET YOUR KEY: https://github.com/Dante7771/patk-mcp (watch repo for launch announcement)
 
 SETUP (Claude Code .mcp.json or settings):
   {
@@ -58,7 +58,7 @@ MAX_CHUNK_SIZE: int = 190_000  # Stay under Railway's 200KB limit; large inputs 
 if not PATK_API_KEY:
     print(
         "PATK ERROR: PATK_API_KEY not set.\n"
-        "Get your key at: https://api-production-44c2.up.railway.app\n"
+        "Get your key at: https://github.com/Dante7771/patk-mcp\n"
         "Set it in your MCP config: \"env\": {\"PATK_API_KEY\": \"ptk_...\"}",
         file=sys.stderr
     )
@@ -141,7 +141,7 @@ def _check_api_key() -> Optional[str]:
         return (
             "❌ PATK_API_KEY not configured.\n"
             "Add to your MCP server env: PATK_API_KEY=ptk_yourkey\n"
-            "Get your key at: https://api-production-44c2.up.railway.app"
+            "Get your key at: https://github.com/Dante7771/patk-mcp"
         )
     return None
 
