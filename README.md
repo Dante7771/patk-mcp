@@ -50,7 +50,9 @@ and their **own separate API costs**. PATK installed once works everywhere:
 
 ### 1. Get your free API key
 
-Register at **[pfc-token-killer.com](https://pfc-token-killer.com)** — 200 free credits, no payment.
+**API keys launching soon** — [watch this repo](https://github.com/Dante7771/patk-mcp) or [open an issue](https://github.com/Dante7771/patk-mcp/issues) to get notified.
+
+> 🔜 **[pfc-token-killer.com](https://pfc-token-killer.com)** *(coming soon)* — 200 free credits, no payment required.
 
 ### 2. Install dependencies
 
